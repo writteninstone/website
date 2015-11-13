@@ -35,6 +35,11 @@ li{
   bottom: 20px;
   margin-bottom: 17px;
 }
+img.back-drop{
+      max-width: 100%;
+      min-height: 450px;
+}
+
 
 .content{
  font-family: 'Lato', sans-serif;
@@ -51,6 +56,8 @@ li{
 
 img{
   position: relative;
+  max-width: 100%;
+  min-height:  450px;
 }
 
 .wis-option a{
