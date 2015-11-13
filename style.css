@@ -8,7 +8,7 @@ body{
   text-align: center;
 }
 
-.wis-option li{
+li.wis-option
   display: inline;
   float: left;
 }
@@ -18,6 +18,6 @@ body{
   width: 100px;
 }
 
-.wis-list ul{
+ul.wis-list{
   list-style-type: none;
 }
