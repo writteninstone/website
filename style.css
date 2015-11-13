@@ -8,9 +8,9 @@ body{
   text-align: center;
 }
 
-li
+li{
   display: inline;
-  float: left;
+  text-align: center;
 }
 
 .wis-option a{
@@ -20,4 +20,7 @@ li
 
 ul.wis-list{
   list-style-type: none;
+  width: 60%;
+  position: relative;
+  margin: 0 auto;
 }
