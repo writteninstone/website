@@ -24,7 +24,7 @@ li{
   width: 120px;
   padding: 20px;
   background: rgb(239,239,239);
-  border: 4px solid rgb(11,11,11);
+  border: 6px solid #2ecc71;
 }
 
 .music{
@@ -39,7 +39,7 @@ li{
 .content{
  font-family: 'Lato', sans-serif;
  position: absolute;
- top: 80px;
+ top: 85px;
  color: rgb(239,239,239);
  width: 100%;
 }
@@ -58,7 +58,8 @@ img{
   font-family:  'Lato', sans-serif;
   text-decoration: none;
   font-weight: 900;
-  color: #2c3e50;
+  font-size: 1.1em;
+  color: #2ecc71;
 }
 
 ul.wis-list{
