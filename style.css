@@ -6,7 +6,7 @@ body{
   top: 0;
   left: 0;
   text-align: center;
-  background: rgb(239,239,239);
+  background: rgb(11,11,11);
 }
 .media{
 
@@ -40,7 +40,7 @@ li{
  font-family: 'Lato', sans-serif;
  position: absolute;
  top: 80px;
- color: rgb(11,11,11);
+ color: rgb(239,239,239);
  width: 100%;
 }
 
