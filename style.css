@@ -1,0 +1,23 @@
+body{
+  padding: 0;
+  margin: 0 auto;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+}
+
+.wis-option li{
+  display: inline;
+  float: left;
+}
+
+.wis-option a{
+  display: block;
+  width: 100px;
+}
+
+.wis-list ul{
+  list-style-type: none;
+}
