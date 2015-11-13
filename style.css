@@ -25,6 +25,18 @@ li{
   height: 80px;
 }
 
+.content{
+ font-family: 'Lato', sans-serif;
+ position: absolute;
+ top: 40px;
+}
+
+.content h1{
+ font-weight: 100; 
+}
+}
+}
+
 img{
   position: relative;
 }
