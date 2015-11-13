@@ -26,6 +26,15 @@ li{
   height: 80px;
 }
 
+.music{
+  padding-bottom: 10px;
+  position: fixed;
+  bottom: 0;
+  z-index: 10;
+  display: block;
+  width: 100%;
+}
+
 .content{
  font-family: 'Lato', sans-serif;
  position: absolute;
