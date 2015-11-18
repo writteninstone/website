@@ -3,6 +3,7 @@ body{
   margin: 0 auto;
   width: 100%;
   position: absolute;
+  font-family: 'Lato';
   top: 0;
   left: 0;
   text-align: center;
@@ -21,9 +22,8 @@ body{
 bottom: 10px;position: fixed;}
 
 li{
-  display: inline-block;
+  display: block;
   margin: auto;
-  width: 120px;
   padding: 20px;
   background: rgba(0,0,0,0);
   border: 6px solid #8e44ad;
@@ -37,12 +37,23 @@ li{
   top: 15px;
   
 }
+.music a{
+  display: block;
+  width: 152px;
+  height: 20px;
+  float: right;
+}
 .music li{
-  
   float: right;
 }
 .music h1{
   float: left;
+  font-weight: 300;
+  padding:0;
+  margin:0;
+  margin-top: 10px;
+  font-size: 2.8em;
+  padding-left: 20px;
 }
 img.back-drop{
       max-width: 100%;
@@ -50,7 +61,7 @@ img.back-drop{
 }
 
 
-.content{
+.body{
  font-family: 'Lato', sans-serif;
  position: absolute;
  top: 85px;
@@ -58,7 +69,7 @@ img.back-drop{
  width: 100%;
 }
 
-.content h1{
+h1{
  font-weight: 100; 
 }
 
@@ -70,7 +81,6 @@ img{
 }
 
 .wis-option a{
-  width: 100px;
   font-family:  'Lato', sans-serif;
   text-decoration: none;
   font-weight: 900;
@@ -86,3 +96,4 @@ ul.wis-list{
   float: none;
   height: 40px;
 }
+ 
