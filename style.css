@@ -40,7 +40,7 @@ body{
   top: 0;
   left: 0;
   text-align: center;
-  background: #2c3e50;
+  background: #424242;
 }
 #nav{
     list-style:none;
@@ -52,6 +52,13 @@ body{
     position:relative;
     z-index:5;
     */
+}
+.backdrop{
+	background: url("http://cdn.playbuzz.com/cdn/6570a9ab-c6ef-434e-94cb-e04a1dea33e2/6d4f34ed-0d8b-440e-8ac9-afc2d14fb1a7.jpg");
+	width:100%;
+	height:400px;
+	overflow:hidden;
+	background-position: 0;
 }
 #nav li{
     float:right;
@@ -137,7 +144,8 @@ bottom: 10px;position: fixed;}
   margin:0;
   margin-top: 10px;
   font-size: 3.3em;
-  padding-left: 20px;
+  padding-left: 30px;
+  color: #efefef;
   line-height: 70px;
 }
 img.back-drop{
