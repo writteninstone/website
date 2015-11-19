@@ -125,8 +125,9 @@ bottom: 10px;position: fixed;}
   display: block;
   width: 100%;
   position: absolute;
-  top: 15px;
-  
+  top:  0;
+  padding-top: 15px;
+  height:  350px;
 }
 .music a{
   display: inline-block;
@@ -186,6 +187,18 @@ a.button{
 	font-size: 1.2em;
 	color: #ecf0f1;
 }
+.head-content{
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	margin: 0 auto;
+	width: 100%;
+
+}
+.head-content h2{
+		text-shadow: black 0px 0px 8px;
+}
+
 .lead{
 
 	font-size: 3.3em;
