@@ -222,3 +222,8 @@ ul.wis-list{
   height: 40px;
 }
  
+.sub-content{
+	padding-top: 20px;
+	border-top: 12px solid rgb(50,50,50);
+}
+}
