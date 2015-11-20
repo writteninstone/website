@@ -48,10 +48,9 @@ body{
 
     float:right; /* Clear floats */
 
-    /* Bring the nav above everything else--uncomment if needed.
-    position:relative;
-    z-index:5;
-    */
+
+    z-index:12;
+    
 }
 .backdrop{
 	background: url("http://cdn.playbuzz.com/cdn/6570a9ab-c6ef-434e-94cb-e04a1dea33e2/6d4f34ed-0d8b-440e-8ac9-afc2d14fb1a7.jpg");
@@ -69,12 +68,12 @@ body{
     display:block;
     padding:5px;
     color:#fff;
-    background:#333;
+    background: rgba(0,0,0,0.0);
     text-decoration:none;
 }
 #nav a:hover{
-    color:#fff;
-    background:#6b0c36;
+    color:#c0392b;
+
     text-decoration:underline;
 }
 
@@ -97,7 +96,8 @@ body{
     left:0; /* Bring back on-screen when needed */
 }
 #nav li:hover a{ /* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */
-    background:#6b0c36;
+    background:rgba(0,0,0,0.2);
+    color: #c0392b;
     text-decoration:underline;
 }
 #nav li:hover ul a{ /* The persistent hover state does however create a global style for links even before they're hovered. Here we undo these effects. */
@@ -111,7 +111,7 @@ body{
 
   
   
-  z-index: 10;
+  
   display: block;
   width: 100%;
   padding: 10px;
@@ -121,7 +121,7 @@ bottom: 10px;position: fixed;}
 
 
 .music{
-  z-index: 10;
+  
   display: block;
   width: 100%;
   position: absolute;
